@@ -14,3 +14,7 @@ Pruebas
 usuario(admin) : Dante
 contraseña(admin) : 12354
 
+Modelos Usados:
+-Escritor
+-Lector
+-Articulos
