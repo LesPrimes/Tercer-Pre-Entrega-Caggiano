@@ -1,0 +1,16 @@
+{%extends "aplicacion/index.html" %}
+
+{%block titulo%}
+<h1 class="display-5 fw-bolder text-white mb-2">Buscar Articulos</h1>
+<p class="lead text-white-50 mb-4">¡Aqui puedes buscar tus articulos favoritos! </p>
+{%endblock titulo%}
+
+{%block contenido%}
+
+<form action="{% url 'encontrar_articulos' %}" method = "get">
+    {% csrf_token %}
+    <p>Ingrese articulo a buscar:<input type="text" name ="buscar" id= "buscar"> </p>
+    <input type = "submit" value = "buscar">
+</form>
+
+{%endblock contenido%}

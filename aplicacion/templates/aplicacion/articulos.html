@@ -1,0 +1,28 @@
+{%extends "aplicacion/index.html" %}
+
+{%block titulo%}
+<h1 class="display-5 fw-bolder text-white mb-2">Articulos encontrados</h1>
+{%endblock titulo%}
+
+{%block contenido%}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>titulo</th>
+            <th>Genero</th>
+            <th>Fecha de publicacion</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for c in articulos  %}
+        <tr>
+            <td>{{ c.titulo }}</td>
+            <td>{{ c.genero }}</td>
+            <td>{{ c.fecha_de_publicacion }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{%endblock contenido%}
