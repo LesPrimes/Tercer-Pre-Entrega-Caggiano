@@ -1,2 +1,16 @@
-Esta es mi tercer pre entrega. La pagina cuenta con 5 botones arriba a la derecha que llevan a llenar los formularios correspondientes, se puede comprobar que son llenados desde la pagina de admin
-El nombre del superusuario es Dante y la contraseña es 12354 
+Proyecto: Tercera-Pre-Entrega
+
+Autor: Dante Caggiano
+Fecha : 3/12/2024
+Version:1.0
+
+Objetivos:
+
+Simular la creacion de escritores, lectores y articulos ademas de la busqueda de articulos
+
+
+Pruebas 
+
+usuario(admin) : Dante
+contraseña(admin) : 12354
+
