@@ -12,6 +12,7 @@ Simular la creacion de escritores, lectores y articulos ademas de la busqueda de
 Pruebas 
 
 usuario(admin) : Dante
+
 contraseña(admin) : 12354
 
 Modelos Usados:
